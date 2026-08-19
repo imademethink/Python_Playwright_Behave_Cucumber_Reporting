@@ -222,7 +222,7 @@ This allows multiple test conditions to be executed using a single scenario defi
 # 📂 Project Structure
 
 ```text
-Automation_Python_Selenium_BDD_Behave_Reporting/
+Python_Playwright_Behave_Cucumber_Reporting/
 │
 ├── features/
 │   │
@@ -286,7 +286,7 @@ Automation_Python_Selenium_BDD_Behave_Reporting/
                             │
                             ▼
                  ┌──────────────────────┐
-                 │ Selenium WebDriver   │
+                 │ Playwright module    │
                  └──────────┬───────────┘
                             │
                             ▼
@@ -383,7 +383,7 @@ Contain BDD step implementations.
 
 ### Page Objects
 
-Contain Selenium interactions.
+Contain Playwright interactions.
 
 ### Utilities
 
@@ -397,7 +397,7 @@ Contain test lifecycle operations.
 
 Contains environment-specific settings.
 
-This separation prevents feature files from becoming tightly coupled with Selenium implementation.
+This separation prevents feature files from becoming tightly coupled with Playwright implementation.
 ---
 
 # 📚 Learning Outcomes
@@ -427,14 +427,14 @@ This repository demonstrates:
 
 This framework can be used by:
 
-* Beginners learning Selenium with Python
+* Beginners learning Playwright with Python
 * QA Automation Engineers
 * SDETs
 * Software Engineers
 * Test Automation Leads
 * QA Managers
 * Teams building BDD automation frameworks
-* Teams migrating from Selenium Java to Selenium Python
+* Teams migrating from Playwright Java to Playwright Python
 
 ---
 
@@ -483,7 +483,7 @@ Clean Python
      +
 Reusable Page Objects
      +
-Reliable Selenium
+Reliable Playwright
      +
 Useful Reporting
      +
