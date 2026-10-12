@@ -2,6 +2,10 @@
 
 ### Production-Ready Python Playwright BDD/ Behave Automation Framework
 
+<img width="1672" height="941" alt="Ready-to-Use Automation Framework" src="https://github.com/user-attachments/assets/ceca39db-c4c0-43ce-b069-8d396b27128b" />
+
+# https://youtu.be/EceK3NO-j3k
+
 Build reliable, maintainable, and scalable UI automation using **Python, Playwright, Behave, Behavex, Gherkin, and HTML Reporting**.
 
 ⭐ If this project helps you, please consider giving it a Star!
@@ -317,6 +321,7 @@ Install the following before running the framework:
 
 # 🚀 Getting Started
 
+Download code:
 
 ```bash
 git clone https://github.com/imademethink/Python_Playwright_Behave_Cucumber_Reporting.git
@@ -345,27 +350,28 @@ Install packages:
 pip install -r requirements.txt
 ```
 
+Run specific tests with a specific tag:
+
+```bash
+behave -f allure_behave.formatter:AllureFormatter -o allure-report  -f plain  --no-skipped --tags=smoke
+```
+
 Run all tests:
 
 ```bash
-behave -f allure_behave.formatter:AllureFormatter -o allure-report  -f plain  --no-skipped -o allure-results
+behave -f allure_behave.formatter:AllureFormatter -o allure-report  -f plain  --no-skipped
 ```
 
+
+Allure Binary intallation: Download Allure Binary from below link, Save it to a folder and add it's path in environment variable
+
+```bash
+https://github.com/allure-framework/allure2/releases
+```
 
 Generate Allure Reports:
 
 ```bash
-allure serve allure-report
-```
-
-
-# 🧪 Test Execution Examples
-
-### Run Specific Scenario
-
-```bash
-behave -f allure_behave.formatter:AllureFormatter -o allure-report  -f plain  --no-skipped -o allure-results --tags=@simple
-
 allure serve allure-report
 ```
 
@@ -419,6 +425,7 @@ This repository demonstrates:
 * Cross-browser testing
 * Tag-based execution
 * Data-driven testing
+* CI/CD integration
 * Maintainable automation framework design
 
 ---
